@@ -1,0 +1,14 @@
+../USB_Device/App/usbd_cdc_if.c:166:6:cdcIfInit	1
+../USB_Device/App/usbd_cdc_if.c:179:10:cdcIfAvailable	1
+../USB_Device/App/usbd_cdc_if.c:184:9:cdcIfRead	1
+../USB_Device/App/usbd_cdc_if.c:193:10:cdcIfWrite	7
+../USB_Device/App/usbd_cdc_if.c:242:10:cdcIfGetBaud	1
+../USB_Device/App/usbd_cdc_if.c:247:6:cdcIfIsConnected	5
+../USB_Device/App/usbd_cdc_if.c:273:9:cdcIfGetType	1
+../USB_Device/App/usbd_cdc_if.c:278:9:CDC_SoF_ISR	7
+../USB_Device/App/usbd_cdc_if.c:348:15:CDC_Init_FS	1
+../USB_Device/App/usbd_cdc_if.c:368:15:CDC_DeInit_FS	1
+../USB_Device/App/usbd_cdc_if.c:385:15:CDC_Control_FS	6
+../USB_Device/App/usbd_cdc_if.c:497:15:CDC_Receive_FS	3
+../USB_Device/App/usbd_cdc_if.c:541:9:CDC_Transmit_FS	2
+../USB_Device/App/usbd_cdc_if.c:567:15:CDC_TransmitCplt_FS	1

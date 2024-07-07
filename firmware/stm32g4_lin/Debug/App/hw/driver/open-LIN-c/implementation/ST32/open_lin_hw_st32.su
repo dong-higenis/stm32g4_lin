@@ -1,0 +1,10 @@
+../Drivers/CMSIS/Include/core_cm4.h:1679:22:__NVIC_EnableIRQ	16	static,ignoring_inline_asm
+../App/hw/driver/open-LIN-c/implementation/ST32/open_lin_hw_st32.c:16:6:open_lin_error_handler	16	static
+../App/hw/driver/open-LIN-c/implementation/ST32/open_lin_hw_st32.c:21:8:open_lin_hw_check_for_break	16	static
+../App/hw/driver/open-LIN-c/implementation/ST32/open_lin_hw_st32.c:32:6:open_lin_frame_set_auto_baud	4	static
+../App/hw/driver/open-LIN-c/implementation/ST32/open_lin_hw_st32.c:37:6:open_lin_hw_reset	8	static
+../App/hw/driver/open-LIN-c/implementation/ST32/open_lin_hw_st32.c:46:6:open_lin_set_rx_enabled	16	static
+../App/hw/driver/open-LIN-c/implementation/ST32/open_lin_hw_st32.c:57:8:open_lin_hw_tx_byte	16	static
+../App/hw/driver/open-LIN-c/implementation/ST32/open_lin_hw_st32.c:64:8:open_lin_hw_tx_break	8	static
+../App/hw/driver/open-LIN-c/implementation/ST32/open_lin_hw_st32.c:71:8:open_lin_hw_tx_data	16	static
+../App/hw/driver/open-LIN-c/implementation/ST32/open_lin_hw_st32.c:86:6:open_lin_master_dl_rx_callback	16	static

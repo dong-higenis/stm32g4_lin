@@ -14,7 +14,6 @@ extern "C" {
 #include "cli.h"
 #include "log.h"
 #include "swtimer.h"
-#include "usb.h"
 #include "cdc.h"
 	//============== COMMON ===============
 #include "qbuffer.h"

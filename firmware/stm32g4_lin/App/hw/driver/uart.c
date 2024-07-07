@@ -171,6 +171,11 @@ bool uartOpen(uint8_t ch, uint32_t baud)
         uart_tbl[ch].qbuffer.out = uart_tbl[ch].qbuffer.in;
       }
       break;
+    case _DEF_UART4:
+      uart_tbl[ch].baud    = baud;
+      uart_tbl[ch].is_open = true;
+      ret = true;
+      break;
   }
 
   return ret;
@@ -200,6 +205,10 @@ uint32_t uartAvailable(uint8_t ch)
 			ret = qbufferAvailable(&uart_tbl[ch].qbuffer);
 		}
 		break;
+
+    case _DEF_UART4:
+      ret = cdcAvailable();
+      break;
   }
 
   return ret;
@@ -235,6 +244,10 @@ uint8_t uartRead(uint8_t ch)
     case _DEF_UART3:
       qbufferRead(&uart_tbl[ch].qbuffer, &ret, 1);
       break;
+
+    case _DEF_UART4:
+      ret = cdcRead();
+      break;
   }
   uart_tbl[ch].rx_cnt++;
 
@@ -256,6 +269,10 @@ uint32_t uartWrite(uint8_t ch, uint8_t *p_data, uint32_t length)
 				ret = length;
 			}
     	break;
+
+    case _DEF_UART4:
+      ret = cdcWrite(p_data, length);
+      break;
   }
   uart_tbl[ch].tx_cnt += ret;
 

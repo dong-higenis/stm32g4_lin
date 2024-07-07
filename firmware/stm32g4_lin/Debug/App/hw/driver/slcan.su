@@ -1,0 +1,10 @@
+../App/hw/driver/slcan.c:31:13:slcanSetOutputChar	16	static
+../App/hw/driver/slcan.c:45:13:slCanSendNibble	16	static
+../App/hw/driver/slcan.c:56:13:slcanSetOutputAsHex	16	static
+../App/hw/driver/slcan.c:61:13:slcanOutputFlush	4	static
+../App/hw/driver/slcan.c:70:6:slCanHandler	16	static
+../App/hw/driver/slcan.c:85:5:slCanProccesInput	16	static
+../App/hw/driver/slcan.c:110:9:parseHex	24	static
+../App/hw/driver/slcan.c:133:16:transmitStd	40	static
+../App/hw/driver/slcan.c:186:6:slCanCheckCommand	24	static
+../App/hw/driver/slcan.c:356:9:slcanReciveCanFrame	24	static

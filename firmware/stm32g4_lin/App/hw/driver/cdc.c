@@ -12,9 +12,7 @@
 
 
 #ifdef _USE_HW_CDC
-#include "usb/usb_cdc/usbd_cdc_if.h"
-
-
+#include "usbd_cdc_if.h"
 
 
 static bool is_init = false;

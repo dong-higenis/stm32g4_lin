@@ -45,10 +45,13 @@
 #define _USE_HW_GPIO
 #define      HW_GPIO_MAX_CH         4
 
-//#define _USE_HW_USB
-//#define _USE_HW_CDC
-//#define      HW_USE_CDC             1
-//#define      HW_USE_MSC             0
+#define _USE_HW_SLCAN_IF
+#define _USE_HW_LIN_SLCAN
+
+#define _USE_HW_USB
+#define _USE_HW_CDC
+#define      HW_USE_CDC             1
+#define      HW_USE_MSC             0
 
 //#define _USE_HW_SPI
 //#define      HW_SPI_MAX_CH          1
